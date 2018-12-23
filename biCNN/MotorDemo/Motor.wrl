@@ -1,0 +1,6376 @@
+#VRML V2.0 utf8
+Transform {
+rotation 1 0 0 -1.570796
+translation -1.94194 0 -1.96419
+children [
+Transform {
+#translation -10.532 -6.903 -23.484
+rotation 1 0 0 1.570796
+#scale 1.37 1.37 1.37
+children [DEF CMP_EDF_70mm Group {
+children [
+Transform {
+#translation 26.205 16.934 63.452
+#scale 0.73 0.73 0.73
+children [DEF GRP_Motor Group {
+children [
+Shape {
+appearance DEF COL_Color_A01 Appearance {
+material Material { diffuseColor 1 0 0 }
+}
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.831 1.884 1.968,
+2.831 3.069 1.968,
+2.828 3.069 1.996,
+2.828 1.884 1.996,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.831 3.069 1.968,
+2.831 1.884 1.968,
+2.828 1.884 1.942,
+2.828 3.069 1.942,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+convex FALSE
+solid FALSE
+coord Coordinate {
+point [
+3.902 1.884 1.996,
+2.828 1.884 1.996,
+2.831 1.884 1.968,
+2.828 1.884 1.942,
+3.902 1.884 1.942,
+]
+}
+coordIndex [
+0
+1
+2
+3
+4
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+3.902 3.069 1.996,
+2.828 3.069 1.996,
+2.828 1.884 1.996,
+3.902 1.884 1.996,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+convex FALSE
+solid FALSE
+coord Coordinate {
+point [
+3.902 3.069 1.942,
+2.828 3.069 1.942,
+2.831 3.069 1.968,
+2.828 3.069 1.996,
+3.902 3.069 1.996,
+]
+}
+coordIndex [
+0
+1
+2
+3
+4
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+3.902 1.884 1.942,
+2.828 1.884 1.942,
+2.828 3.069 1.942,
+3.902 3.069 1.942,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+convex FALSE
+solid FALSE
+coord Coordinate {
+point [
+2.831 3.236 1.968,
+2.831 3.069 1.968,
+2.828 3.069 1.942,
+2.828 1.884 1.942,
+2.831 1.884 1.968,
+2.831 1.564 1.968,
+2.802 1.564 1.745,
+2.802 3.236 1.745,
+]
+}
+coordIndex [
+0
+1
+2
+3
+4
+5
+6
+7
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+convex FALSE
+solid FALSE
+coord Coordinate {
+point [
+2.831 1.564 1.968,
+2.831 1.884 1.968,
+2.828 1.884 1.996,
+2.828 3.069 1.996,
+2.831 3.069 1.968,
+2.831 3.236 1.968,
+2.802 3.236 2.192,
+2.802 1.564 2.192,
+]
+}
+coordIndex [
+0
+1
+2
+3
+4
+5
+6
+7
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.831 3.236 1.968,
+2.723 3.236 2.171,
+2.802 3.236 2.192,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.831 3.236 1.968,
+2.75 3.236 1.968,
+2.723 3.236 2.171,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.831 3.236 1.968,
+2.723 3.236 1.766,
+2.75 3.236 1.968,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.802 3.236 1.745,
+2.723 3.236 1.766,
+2.831 3.236 1.968,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.802 3.236 1.745,
+2.645 3.236 1.578,
+2.723 3.236 1.766,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.716 3.236 1.537,
+2.645 3.236 1.578,
+2.802 3.236 1.745,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.716 3.236 1.537,
+2.521 3.236 1.416,
+2.645 3.236 1.578,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.579 3.236 1.358,
+2.521 3.236 1.416,
+2.716 3.236 1.537,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.579 3.236 1.358,
+2.359 3.236 1.292,
+2.521 3.236 1.416,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.4 3.236 1.221,
+2.359 3.236 1.292,
+2.579 3.236 1.358,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.4 3.236 1.221,
+2.171 3.236 1.214,
+2.359 3.236 1.292,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.4 3.236 1.221,
+1.968 3.236 1.187,
+2.171 3.236 1.214,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.968 3.236 1.187,
+2.4 3.236 1.221,
+2.192 3.236 1.135,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.192 3.236 1.135,
+2.4 3.236 1.221,
+2.4 1.564 1.221,
+2.192 1.564 1.135,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.4 3.236 1.221,
+2.579 3.236 1.358,
+2.579 1.564 1.358,
+2.4 1.564 1.221,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.579 3.236 1.358,
+2.716 3.236 1.537,
+2.716 1.564 1.537,
+2.579 1.564 1.358,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.716 3.236 1.537,
+2.802 3.236 1.745,
+2.802 1.564 1.745,
+2.716 1.564 1.537,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.645 1.564 1.578,
+2.716 1.564 1.537,
+2.802 1.564 1.745,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.521 1.564 1.416,
+2.716 1.564 1.537,
+2.645 1.564 1.578,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.521 1.564 1.416,
+2.579 1.564 1.358,
+2.716 1.564 1.537,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.359 1.564 1.292,
+2.579 1.564 1.358,
+2.521 1.564 1.416,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.359 1.564 1.292,
+2.4 1.564 1.221,
+2.579 1.564 1.358,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.171 1.564 1.214,
+2.4 1.564 1.221,
+2.359 1.564 1.292,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.968 1.564 1.187,
+2.4 1.564 1.221,
+2.171 1.564 1.214,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.745 1.564 1.135,
+2.4 1.564 1.221,
+1.968 1.564 1.187,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.745 1.564 1.135,
+2.192 1.564 1.135,
+2.4 1.564 1.221,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.192 1.564 1.135,
+1.745 1.564 1.135,
+1.968 1.564 1.105,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+convex FALSE
+solid FALSE
+coord Coordinate {
+point [
+1.968 3.236 1.105,
+1.968 3.069 1.105,
+1.942 3.069 1.109,
+1.942 1.884 1.109,
+1.968 1.884 1.105,
+1.968 1.564 1.105,
+1.745 1.564 1.135,
+1.745 3.236 1.135,
+]
+}
+coordIndex [
+0
+1
+2
+3
+4
+5
+6
+7
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+convex FALSE
+solid FALSE
+coord Coordinate {
+point [
+1.968 1.564 1.105,
+1.968 1.884 1.105,
+1.996 1.884 1.109,
+1.996 3.069 1.109,
+1.968 3.069 1.105,
+1.968 3.236 1.105,
+2.192 3.236 1.135,
+2.192 1.564 1.135,
+]
+}
+coordIndex [
+0
+1
+2
+3
+4
+5
+6
+7
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.968 1.884 1.105,
+1.968 3.069 1.105,
+1.996 3.069 1.109,
+1.996 1.884 1.109,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.968 3.069 1.105,
+1.968 1.884 1.105,
+1.942 1.884 1.109,
+1.942 3.069 1.109,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+convex FALSE
+solid FALSE
+coord Coordinate {
+point [
+1.996 1.884 0.03,
+1.996 1.884 1.109,
+1.968 1.884 1.105,
+1.942 1.884 1.109,
+1.942 1.884 0.03,
+]
+}
+coordIndex [
+0
+1
+2
+3
+4
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.996 3.069 0.03,
+1.996 3.069 1.109,
+1.996 1.884 1.109,
+1.996 1.884 0.03,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+convex FALSE
+solid FALSE
+coord Coordinate {
+point [
+1.942 3.069 0.03,
+1.942 3.069 1.109,
+1.968 3.069 1.105,
+1.996 3.069 1.109,
+1.996 3.069 0.03,
+]
+}
+coordIndex [
+0
+1
+2
+3
+4
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.942 1.884 0.03,
+1.942 1.884 1.109,
+1.942 3.069 1.109,
+1.942 3.069 0.03,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.996 1.884 0.03,
+1.942 1.884 0.03,
+1.942 3.069 0.03,
+1.996 3.069 0.03,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.745 3.236 1.135,
+2.192 3.236 1.135,
+1.968 3.236 1.105,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.192 3.236 1.135,
+1.745 3.236 1.135,
+1.537 3.236 1.221,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.537 3.236 1.221,
+1.745 3.236 1.135,
+1.745 1.564 1.135,
+1.537 1.564 1.221,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.968 1.564 1.187,
+1.537 1.564 1.221,
+1.745 1.564 1.135,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.537 1.564 1.221,
+1.968 1.564 1.187,
+1.766 1.564 1.214,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.766 1.564 1.214,
+1.968 1.564 1.187,
+1.968 3.236 1.187,
+1.766 3.236 1.214,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.968 1.564 1.187,
+2.171 1.564 1.214,
+2.171 3.236 1.214,
+1.968 3.236 1.187,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.171 1.564 1.214,
+2.359 1.564 1.292,
+2.359 3.236 1.292,
+2.171 3.236 1.214,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.359 1.564 1.292,
+2.521 1.564 1.416,
+2.521 3.236 1.416,
+2.359 3.236 1.292,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.521 1.564 1.416,
+2.645 1.564 1.578,
+2.645 3.236 1.578,
+2.521 3.236 1.416,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.645 1.564 1.578,
+2.723 1.564 1.766,
+2.723 3.236 1.766,
+2.645 3.236 1.578,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.645 1.564 1.578,
+2.802 1.564 1.745,
+2.723 1.564 1.766,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.723 1.564 1.766,
+2.802 1.564 1.745,
+2.831 1.564 1.968,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.723 1.564 1.766,
+2.831 1.564 1.968,
+2.75 1.564 1.968,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.75 1.564 1.968,
+2.831 1.564 1.968,
+2.802 1.564 2.192,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.75 1.564 1.968,
+2.802 1.564 2.192,
+2.723 1.564 2.171,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.723 1.564 2.171,
+2.802 1.564 2.192,
+2.645 1.564 2.359,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.645 1.564 2.359,
+2.802 1.564 2.192,
+2.716 1.564 2.4,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.802 3.236 2.192,
+2.716 3.236 2.4,
+2.716 1.564 2.4,
+2.802 1.564 2.192,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.802 3.236 2.192,
+2.645 3.236 2.359,
+2.716 3.236 2.4,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.802 3.236 2.192,
+2.723 3.236 2.171,
+2.645 3.236 2.359,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.723 1.564 2.171,
+2.645 1.564 2.359,
+2.645 3.236 2.359,
+2.723 3.236 2.171,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.645 1.564 2.359,
+2.521 1.564 2.521,
+2.521 3.236 2.521,
+2.645 3.236 2.359,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.645 1.564 2.359,
+2.716 1.564 2.4,
+2.521 1.564 2.521,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.521 1.564 2.521,
+2.716 1.564 2.4,
+2.579 1.564 2.579,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.716 3.236 2.4,
+2.579 3.236 2.579,
+2.579 1.564 2.579,
+2.716 1.564 2.4,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.716 3.236 2.4,
+2.521 3.236 2.521,
+2.579 3.236 2.579,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.716 3.236 2.4,
+2.645 3.236 2.359,
+2.521 3.236 2.521,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.579 3.236 2.579,
+2.521 3.236 2.521,
+2.359 3.236 2.645,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.521 1.564 2.521,
+2.359 1.564 2.645,
+2.359 3.236 2.645,
+2.521 3.236 2.521,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.521 1.564 2.521,
+2.579 1.564 2.579,
+2.359 1.564 2.645,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.359 1.564 2.645,
+2.579 1.564 2.579,
+2.4 1.564 2.716,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.579 3.236 2.579,
+2.4 3.236 2.716,
+2.4 1.564 2.716,
+2.579 1.564 2.579,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.579 3.236 2.579,
+2.359 3.236 2.645,
+2.4 3.236 2.716,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.4 3.236 2.716,
+2.359 3.236 2.645,
+2.171 3.236 2.723,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.359 1.564 2.645,
+2.171 1.564 2.723,
+2.171 3.236 2.723,
+2.359 3.236 2.645,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.359 1.564 2.645,
+2.4 1.564 2.716,
+2.171 1.564 2.723,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.171 1.564 2.723,
+2.4 1.564 2.716,
+2.192 1.564 2.802,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.4 3.236 2.716,
+2.192 3.236 2.802,
+2.192 1.564 2.802,
+2.4 1.564 2.716,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.4 3.236 2.716,
+2.171 3.236 2.723,
+2.192 3.236 2.802,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.192 3.236 2.802,
+2.171 3.236 2.723,
+1.968 3.236 2.75,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.171 1.564 2.723,
+1.968 1.564 2.75,
+1.968 3.236 2.75,
+2.171 3.236 2.723,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.171 1.564 2.723,
+2.192 1.564 2.802,
+1.968 1.564 2.75,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.745 1.564 2.802,
+1.968 1.564 2.75,
+2.192 1.564 2.802,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.745 1.564 2.802,
+1.766 1.564 2.723,
+1.968 1.564 2.75,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.537 1.564 2.716,
+1.766 1.564 2.723,
+1.745 1.564 2.802,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.537 1.564 2.716,
+1.578 1.564 2.645,
+1.766 1.564 2.723,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.358 1.564 2.579,
+1.578 1.564 2.645,
+1.537 1.564 2.716,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.358 1.564 2.579,
+1.416 1.564 2.521,
+1.578 1.564 2.645,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.221 1.564 2.4,
+1.416 1.564 2.521,
+1.358 1.564 2.579,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.221 1.564 2.4,
+1.292 1.564 2.359,
+1.416 1.564 2.521,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.135 1.564 2.192,
+1.292 1.564 2.359,
+1.221 1.564 2.4,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.135 1.564 2.192,
+1.214 1.564 2.171,
+1.292 1.564 2.359,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.105 1.564 1.968,
+1.214 1.564 2.171,
+1.135 1.564 2.192,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.105 1.564 1.968,
+1.187 1.564 1.968,
+1.214 1.564 2.171,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.105 1.564 1.968,
+1.214 1.564 1.766,
+1.187 1.564 1.968,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.135 1.564 1.745,
+1.214 1.564 1.766,
+1.105 1.564 1.968,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.135 1.564 1.745,
+1.292 1.564 1.578,
+1.214 1.564 1.766,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.221 1.564 1.537,
+1.292 1.564 1.578,
+1.135 1.564 1.745,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.221 1.564 1.537,
+1.416 1.564 1.416,
+1.292 1.564 1.578,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.358 1.564 1.358,
+1.416 1.564 1.416,
+1.221 1.564 1.537,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.358 1.564 1.358,
+1.578 1.564 1.292,
+1.416 1.564 1.416,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.537 1.564 1.221,
+1.578 1.564 1.292,
+1.358 1.564 1.358,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.537 1.564 1.221,
+1.766 1.564 1.214,
+1.578 1.564 1.292,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.578 1.564 1.292,
+1.766 1.564 1.214,
+1.766 3.236 1.214,
+1.578 3.236 1.292,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.766 3.236 1.214,
+1.537 3.236 1.221,
+1.578 3.236 1.292,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.968 3.236 1.187,
+1.537 3.236 1.221,
+1.766 3.236 1.214,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.192 3.236 1.135,
+1.537 3.236 1.221,
+1.968 3.236 1.187,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.578 3.236 1.292,
+1.537 3.236 1.221,
+1.358 3.236 1.358,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.358 3.236 1.358,
+1.537 3.236 1.221,
+1.537 1.564 1.221,
+1.358 1.564 1.358,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.221 3.236 1.537,
+1.358 3.236 1.358,
+1.358 1.564 1.358,
+1.221 1.564 1.537,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.416 3.236 1.416,
+1.358 3.236 1.358,
+1.221 3.236 1.537,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.578 3.236 1.292,
+1.358 3.236 1.358,
+1.416 3.236 1.416,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.416 1.564 1.416,
+1.578 1.564 1.292,
+1.578 3.236 1.292,
+1.416 3.236 1.416,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.292 1.564 1.578,
+1.416 1.564 1.416,
+1.416 3.236 1.416,
+1.292 3.236 1.578,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.416 3.236 1.416,
+1.221 3.236 1.537,
+1.292 3.236 1.578,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.292 3.236 1.578,
+1.221 3.236 1.537,
+1.135 3.236 1.745,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.135 3.236 1.745,
+1.221 3.236 1.537,
+1.221 1.564 1.537,
+1.135 1.564 1.745,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+convex FALSE
+solid FALSE
+coord Coordinate {
+point [
+1.105 1.564 1.968,
+1.105 1.884 1.968,
+1.109 1.884 1.942,
+1.109 3.069 1.942,
+1.105 3.069 1.968,
+1.105 3.236 1.968,
+1.135 3.236 1.745,
+1.135 1.564 1.745,
+]
+}
+coordIndex [
+0
+1
+2
+3
+4
+5
+6
+7
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+convex FALSE
+solid FALSE
+coord Coordinate {
+point [
+1.105 3.236 1.968,
+1.105 3.069 1.968,
+1.109 3.069 1.996,
+1.109 1.884 1.996,
+1.105 1.884 1.968,
+1.105 1.564 1.968,
+1.135 1.564 2.192,
+1.135 3.236 2.192,
+]
+}
+coordIndex [
+0
+1
+2
+3
+4
+5
+6
+7
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.105 3.069 1.968,
+1.105 1.884 1.968,
+1.109 1.884 1.996,
+1.109 3.069 1.996,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.105 1.884 1.968,
+1.105 3.069 1.968,
+1.109 3.069 1.942,
+1.109 1.884 1.942,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+convex FALSE
+solid FALSE
+coord Coordinate {
+point [
+0.072 3.069 1.996,
+1.109 3.069 1.996,
+1.105 3.069 1.968,
+1.109 3.069 1.942,
+0.072 3.069 1.942,
+]
+}
+coordIndex [
+0
+1
+2
+3
+4
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.072 1.884 1.996,
+1.109 1.884 1.996,
+1.109 3.069 1.996,
+0.072 3.069 1.996,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+convex FALSE
+solid FALSE
+coord Coordinate {
+point [
+0.072 1.884 1.942,
+1.109 1.884 1.942,
+1.105 1.884 1.968,
+1.109 1.884 1.996,
+0.072 1.884 1.996,
+]
+}
+coordIndex [
+0
+1
+2
+3
+4
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.072 3.069 1.942,
+1.109 3.069 1.942,
+1.109 1.884 1.942,
+0.072 1.884 1.942,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.072 1.884 1.942,
+0.072 1.884 1.996,
+0.072 3.069 1.996,
+0.072 3.069 1.942,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.221 3.236 2.4,
+1.135 3.236 2.192,
+1.135 1.564 2.192,
+1.221 1.564 2.4,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.292 3.236 2.359,
+1.135 3.236 2.192,
+1.221 3.236 2.4,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.214 3.236 2.171,
+1.135 3.236 2.192,
+1.292 3.236 2.359,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.187 3.236 1.968,
+1.135 3.236 2.192,
+1.214 3.236 2.171,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.187 3.236 1.968,
+1.105 3.236 1.968,
+1.135 3.236 2.192,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.214 3.236 1.766,
+1.105 3.236 1.968,
+1.187 3.236 1.968,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.214 3.236 1.766,
+1.135 3.236 1.745,
+1.105 3.236 1.968,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.292 3.236 1.578,
+1.135 3.236 1.745,
+1.214 3.236 1.766,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.214 1.564 1.766,
+1.292 1.564 1.578,
+1.292 3.236 1.578,
+1.214 3.236 1.766,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.187 1.564 1.968,
+1.214 1.564 1.766,
+1.214 3.236 1.766,
+1.187 3.236 1.968,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.214 1.564 2.171,
+1.187 1.564 1.968,
+1.187 3.236 1.968,
+1.214 3.236 2.171,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.292 1.564 2.359,
+1.214 1.564 2.171,
+1.214 3.236 2.171,
+1.292 3.236 2.359,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.416 1.564 2.521,
+1.292 1.564 2.359,
+1.292 3.236 2.359,
+1.416 3.236 2.521,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.292 3.236 2.359,
+1.221 3.236 2.4,
+1.416 3.236 2.521,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.416 3.236 2.521,
+1.221 3.236 2.4,
+1.358 3.236 2.579,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.358 3.236 2.579,
+1.221 3.236 2.4,
+1.221 1.564 2.4,
+1.358 1.564 2.579,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.537 3.236 2.716,
+1.358 3.236 2.579,
+1.358 1.564 2.579,
+1.537 1.564 2.716,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.578 3.236 2.645,
+1.358 3.236 2.579,
+1.537 3.236 2.716,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.416 3.236 2.521,
+1.358 3.236 2.579,
+1.578 3.236 2.645,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.578 1.564 2.645,
+1.416 1.564 2.521,
+1.416 3.236 2.521,
+1.578 3.236 2.645,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.766 1.564 2.723,
+1.578 1.564 2.645,
+1.578 3.236 2.645,
+1.766 3.236 2.723,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.578 3.236 2.645,
+1.537 3.236 2.716,
+1.766 3.236 2.723,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.766 3.236 2.723,
+1.537 3.236 2.716,
+1.745 3.236 2.802,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.745 3.236 2.802,
+1.537 3.236 2.716,
+1.537 1.564 2.716,
+1.745 1.564 2.802,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+convex FALSE
+solid FALSE
+coord Coordinate {
+point [
+1.968 1.564 2.831,
+1.968 1.884 2.831,
+1.942 1.884 2.828,
+1.942 3.069 2.828,
+1.968 3.069 2.831,
+1.968 3.236 2.831,
+1.745 3.236 2.802,
+1.745 1.564 2.802,
+]
+}
+coordIndex [
+0
+1
+2
+3
+4
+5
+6
+7
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+convex FALSE
+solid FALSE
+coord Coordinate {
+point [
+1.968 3.236 2.831,
+1.968 3.069 2.831,
+1.996 3.069 2.828,
+1.996 1.884 2.828,
+1.968 1.884 2.831,
+1.968 1.564 2.831,
+2.192 1.564 2.802,
+2.192 3.236 2.802,
+]
+}
+coordIndex [
+0
+1
+2
+3
+4
+5
+6
+7
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.968 3.069 2.831,
+1.968 1.884 2.831,
+1.996 1.884 2.828,
+1.996 3.069 2.828,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.968 1.884 2.831,
+1.968 3.069 2.831,
+1.942 3.069 2.828,
+1.942 1.884 2.828,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+convex FALSE
+solid FALSE
+coord Coordinate {
+point [
+1.996 3.069 3.914,
+1.996 3.069 2.828,
+1.968 3.069 2.831,
+1.942 3.069 2.828,
+1.942 3.069 3.914,
+]
+}
+coordIndex [
+0
+1
+2
+3
+4
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.996 1.884 3.914,
+1.996 1.884 2.828,
+1.996 3.069 2.828,
+1.996 3.069 3.914,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+convex FALSE
+solid FALSE
+coord Coordinate {
+point [
+1.942 1.884 3.914,
+1.942 1.884 2.828,
+1.968 1.884 2.831,
+1.996 1.884 2.828,
+1.996 1.884 3.914,
+]
+}
+coordIndex [
+0
+1
+2
+3
+4
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.942 3.069 3.914,
+1.942 3.069 2.828,
+1.942 1.884 2.828,
+1.942 1.884 3.914,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.942 1.884 3.914,
+1.996 1.884 3.914,
+1.996 3.069 3.914,
+1.942 3.069 3.914,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.745 1.564 2.802,
+2.192 1.564 2.802,
+1.968 1.564 2.831,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.192 3.236 2.802,
+1.745 3.236 2.802,
+1.968 3.236 2.831,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.192 3.236 2.802,
+1.968 3.236 2.75,
+1.745 3.236 2.802,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.766 3.236 2.723,
+1.745 3.236 2.802,
+1.968 3.236 2.75,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.968 1.564 2.75,
+1.766 1.564 2.723,
+1.766 3.236 2.723,
+1.968 3.236 2.75,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.75 1.564 1.968,
+2.723 1.564 2.171,
+2.723 3.236 2.171,
+2.75 3.236 1.968,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.723 1.564 1.766,
+2.75 1.564 1.968,
+2.75 3.236 1.968,
+2.723 3.236 1.766,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+3.902 1.884 1.996,
+3.902 1.884 1.942,
+3.902 3.069 1.942,
+3.902 3.069 1.996,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.863 0 3.631,
+2.402 0 3.806,
+2.402 3.236 3.806,
+2.863 3.236 3.631,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.863 0 3.631,
+2.991 0 3.651,
+2.402 0 3.806,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+3.263 0 3.343,
+2.991 0 3.651,
+2.863 0 3.631,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+3.263 0 3.343,
+3.392 0 3.329,
+2.991 0 3.651,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+3.574 0 2.961,
+3.392 0 3.329,
+3.263 0 3.343,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+3.574 0 2.961,
+3.695 0 2.914,
+3.392 0 3.329,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+3.777 0 2.511,
+3.695 0 2.914,
+3.574 0 2.961,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+3.777 0 2.511,
+3.881 0 2.435,
+3.695 0 2.914,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+3.855 0 2.025,
+3.881 0 2.435,
+3.777 0 2.511,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+3.855 0 2.025,
+3.937 0 1.924,
+3.881 0 2.435,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+3.806 0 1.534,
+3.937 0 1.924,
+3.855 0 2.025,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+3.806 0 1.534,
+3.858 0 1.416,
+3.937 0 1.924,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+3.631 0 1.074,
+3.858 0 1.416,
+3.806 0 1.534,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+3.631 0 1.074,
+3.651 0 0.946,
+3.858 0 1.416,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+3.343 0 0.674,
+3.651 0 0.946,
+3.631 0 1.074,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+3.343 0 0.674,
+3.329 0 0.545,
+3.651 0 0.946,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.961 0 0.362,
+3.329 0 0.545,
+3.343 0 0.674,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.961 0 0.362,
+2.914 0 0.241,
+3.329 0 0.545,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.511 0 0.16,
+2.914 0 0.241,
+2.961 0 0.362,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.511 0 0.16,
+2.435 0 0.056,
+2.914 0 0.241,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.025 0 0.081,
+2.435 0 0.056,
+2.511 0 0.16,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.416 0 0.079,
+2.435 0 0.056,
+2.025 0 0.081,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.435 0 0.056,
+1.416 0 0.079,
+1.924 0 0,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.924 0 0,
+1.416 0 0.079,
+1.416 3.236 0.079,
+1.924 3.236 0,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.416 0 0.079,
+0.946 0 0.286,
+0.946 3.236 0.286,
+1.416 3.236 0.079,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.416 0 0.079,
+1.534 0 0.131,
+0.946 0 0.286,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.534 0 0.131,
+1.416 0 0.079,
+2.025 0 0.081,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.534 0 0.131,
+2.025 0 0.081,
+2.025 3.236 0.081,
+1.534 3.236 0.131,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.025 0 0.081,
+2.511 0 0.16,
+2.511 3.236 0.16,
+2.025 3.236 0.081,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.511 0 0.16,
+2.961 0 0.362,
+2.961 3.236 0.362,
+2.511 3.236 0.16,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.961 0 0.362,
+3.343 0 0.674,
+3.343 3.236 0.674,
+2.961 3.236 0.362,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+3.343 0 0.674,
+3.631 0 1.074,
+3.631 3.236 1.074,
+3.343 3.236 0.674,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+3.631 0 1.074,
+3.806 0 1.534,
+3.806 3.236 1.534,
+3.631 3.236 1.074,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+3.806 0 1.534,
+3.855 0 2.025,
+3.855 3.236 2.025,
+3.806 3.236 1.534,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+3.855 0 2.025,
+3.777 0 2.511,
+3.777 3.236 2.511,
+3.855 3.236 2.025,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+3.777 0 2.511,
+3.574 0 2.961,
+3.574 3.236 2.961,
+3.777 3.236 2.511,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+3.574 0 2.961,
+3.263 0 3.343,
+3.263 3.236 3.343,
+3.574 3.236 2.961,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+3.263 0 3.343,
+2.863 0 3.631,
+2.863 3.236 3.631,
+3.263 3.236 3.343,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.991 3.236 3.651,
+3.263 3.236 3.343,
+2.863 3.236 3.631,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+3.392 3.236 3.329,
+3.263 3.236 3.343,
+2.991 3.236 3.651,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+3.392 3.236 3.329,
+3.574 3.236 2.961,
+3.263 3.236 3.343,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+3.695 3.236 2.914,
+3.574 3.236 2.961,
+3.392 3.236 3.329,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+3.695 3.236 2.914,
+3.777 3.236 2.511,
+3.574 3.236 2.961,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+3.881 3.236 2.435,
+3.777 3.236 2.511,
+3.695 3.236 2.914,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+3.881 3.236 2.435,
+3.855 3.236 2.025,
+3.777 3.236 2.511,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+3.937 3.236 1.924,
+3.855 3.236 2.025,
+3.881 3.236 2.435,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+3.937 3.236 1.924,
+3.806 3.236 1.534,
+3.855 3.236 2.025,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+3.858 3.236 1.416,
+3.806 3.236 1.534,
+3.937 3.236 1.924,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+3.858 3.236 1.416,
+3.631 3.236 1.074,
+3.806 3.236 1.534,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+3.651 3.236 0.946,
+3.631 3.236 1.074,
+3.858 3.236 1.416,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+3.651 3.236 0.946,
+3.343 3.236 0.674,
+3.631 3.236 1.074,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+3.329 3.236 0.545,
+3.343 3.236 0.674,
+3.651 3.236 0.946,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+3.329 3.236 0.545,
+2.961 3.236 0.362,
+3.343 3.236 0.674,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.914 3.236 0.241,
+2.961 3.236 0.362,
+3.329 3.236 0.545,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.914 3.236 0.241,
+2.511 3.236 0.16,
+2.961 3.236 0.362,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.435 3.236 0.056,
+2.511 3.236 0.16,
+2.914 3.236 0.241,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.435 3.236 0.056,
+2.025 3.236 0.081,
+2.511 3.236 0.16,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.435 3.236 0.056,
+1.416 3.236 0.079,
+2.025 3.236 0.081,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.416 3.236 0.079,
+2.435 3.236 0.056,
+1.924 3.236 0,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.435 0 0.056,
+1.924 0 0,
+1.924 3.236 0,
+2.435 3.236 0.056,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.914 0 0.241,
+2.435 0 0.056,
+2.435 3.236 0.056,
+2.914 3.236 0.241,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+3.329 0 0.545,
+2.914 0 0.241,
+2.914 3.236 0.241,
+3.329 3.236 0.545,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+3.651 0 0.946,
+3.329 0 0.545,
+3.329 3.236 0.545,
+3.651 3.236 0.946,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+3.858 0 1.416,
+3.651 0 0.946,
+3.651 3.236 0.946,
+3.858 3.236 1.416,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+3.937 0 1.924,
+3.858 0 1.416,
+3.858 3.236 1.416,
+3.937 3.236 1.924,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+3.881 0 2.435,
+3.937 0 1.924,
+3.937 3.236 1.924,
+3.881 3.236 2.435,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+3.695 0 2.914,
+3.881 0 2.435,
+3.881 3.236 2.435,
+3.695 3.236 2.914,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+3.392 0 3.329,
+3.695 0 2.914,
+3.695 3.236 2.914,
+3.392 3.236 3.329,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.991 0 3.651,
+3.392 0 3.329,
+3.392 3.236 3.329,
+2.991 3.236 3.651,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.521 0 3.858,
+2.991 0 3.651,
+2.991 3.236 3.651,
+2.521 3.236 3.858,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.402 0 3.806,
+2.991 0 3.651,
+2.521 0 3.858,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.402 0 3.806,
+2.521 0 3.858,
+1.912 0 3.855,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.502 0 3.881,
+1.912 0 3.855,
+2.521 0 3.858,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.502 0 3.881,
+1.425 0 3.777,
+1.912 0 3.855,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.023 0 3.695,
+1.425 0 3.777,
+1.502 0 3.881,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.023 0 3.695,
+0.976 0 3.574,
+1.425 0 3.777,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.608 0 3.392,
+0.976 0 3.574,
+1.023 0 3.695,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.608 0 3.392,
+0.594 0 3.263,
+0.976 0 3.574,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.286 0 2.991,
+0.594 0 3.263,
+0.608 0 3.392,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.286 0 2.991,
+0.306 0 2.863,
+0.594 0 3.263,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.079 0 2.521,
+0.306 0 2.863,
+0.286 0 2.991,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.079 0 2.521,
+0.131 0 2.402,
+0.306 0 2.863,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0 0 2.013,
+0.131 0 2.402,
+0.079 0 2.521,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0 0 2.013,
+0.081 0 1.912,
+0.131 0 2.402,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.056 0 1.502,
+0.081 0 1.912,
+0 0 2.013,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.056 0 1.502,
+0.16 0 1.425,
+0.081 0 1.912,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.241 0 1.023,
+0.16 0 1.425,
+0.056 0 1.502,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.241 0 1.023,
+0.362 0 0.976,
+0.16 0 1.425,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.545 0 0.608,
+0.362 0 0.976,
+0.241 0 1.023,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.545 0 0.608,
+0.674 0 0.594,
+0.362 0 0.976,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.545 0 0.608,
+1.074 0 0.306,
+0.674 0 0.594,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.946 0 0.286,
+1.074 0 0.306,
+0.545 0 0.608,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.946 0 0.286,
+1.534 0 0.131,
+1.074 0 0.306,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.074 0 0.306,
+1.534 0 0.131,
+1.534 3.236 0.131,
+1.074 3.236 0.306,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.534 3.236 0.131,
+0.946 3.236 0.286,
+1.074 3.236 0.306,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.534 3.236 0.131,
+1.416 3.236 0.079,
+0.946 3.236 0.286,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.416 3.236 0.079,
+1.534 3.236 0.131,
+2.025 3.236 0.081,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.074 3.236 0.306,
+0.946 3.236 0.286,
+0.545 3.236 0.608,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.946 0 0.286,
+0.545 0 0.608,
+0.545 3.236 0.608,
+0.946 3.236 0.286,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.545 0 0.608,
+0.241 0 1.023,
+0.241 3.236 1.023,
+0.545 3.236 0.608,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.241 0 1.023,
+0.056 0 1.502,
+0.056 3.236 1.502,
+0.241 3.236 1.023,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.056 0 1.502,
+0 0 2.013,
+0 3.236 2.013,
+0.056 3.236 1.502,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0 0 2.013,
+0.079 0 2.521,
+0.079 3.236 2.521,
+0 3.236 2.013,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.079 0 2.521,
+0.286 0 2.991,
+0.286 3.236 2.991,
+0.079 3.236 2.521,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.286 0 2.991,
+0.608 0 3.392,
+0.608 3.236 3.392,
+0.286 3.236 2.991,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.608 0 3.392,
+1.023 0 3.695,
+1.023 3.236 3.695,
+0.608 3.236 3.392,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.023 0 3.695,
+1.502 0 3.881,
+1.502 3.236 3.881,
+1.023 3.236 3.695,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.502 0 3.881,
+2.013 0 3.937,
+2.013 3.236 3.937,
+1.502 3.236 3.881,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.502 0 3.881,
+2.521 0 3.858,
+2.013 0 3.937,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.013 0 3.937,
+2.521 0 3.858,
+2.521 3.236 3.858,
+2.013 3.236 3.937,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.521 3.236 3.858,
+1.502 3.236 3.881,
+2.013 3.236 3.937,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.912 3.236 3.855,
+1.502 3.236 3.881,
+2.521 3.236 3.858,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.425 3.236 3.777,
+1.502 3.236 3.881,
+1.912 3.236 3.855,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.425 3.236 3.777,
+1.023 3.236 3.695,
+1.502 3.236 3.881,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.976 3.236 3.574,
+1.023 3.236 3.695,
+1.425 3.236 3.777,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.976 3.236 3.574,
+0.608 3.236 3.392,
+1.023 3.236 3.695,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.594 3.236 3.263,
+0.608 3.236 3.392,
+0.976 3.236 3.574,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.594 3.236 3.263,
+0.286 3.236 2.991,
+0.608 3.236 3.392,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.306 3.236 2.863,
+0.286 3.236 2.991,
+0.594 3.236 3.263,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.306 3.236 2.863,
+0.079 3.236 2.521,
+0.286 3.236 2.991,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.131 3.236 2.402,
+0.079 3.236 2.521,
+0.306 3.236 2.863,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.131 3.236 2.402,
+0 3.236 2.013,
+0.079 3.236 2.521,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.081 3.236 1.912,
+0 3.236 2.013,
+0.131 3.236 2.402,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.081 3.236 1.912,
+0.056 3.236 1.502,
+0 3.236 2.013,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.16 3.236 1.425,
+0.056 3.236 1.502,
+0.081 3.236 1.912,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.16 3.236 1.425,
+0.241 3.236 1.023,
+0.056 3.236 1.502,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.362 3.236 0.976,
+0.241 3.236 1.023,
+0.16 3.236 1.425,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.362 3.236 0.976,
+0.545 3.236 0.608,
+0.241 3.236 1.023,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.674 3.236 0.594,
+0.545 3.236 0.608,
+0.362 3.236 0.976,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.074 3.236 0.306,
+0.545 3.236 0.608,
+0.674 3.236 0.594,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.674 0 0.594,
+1.074 0 0.306,
+1.074 3.236 0.306,
+0.674 3.236 0.594,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.362 0 0.976,
+0.674 0 0.594,
+0.674 3.236 0.594,
+0.362 3.236 0.976,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.16 0 1.425,
+0.362 0 0.976,
+0.362 3.236 0.976,
+0.16 3.236 1.425,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.081 0 1.912,
+0.16 0 1.425,
+0.16 3.236 1.425,
+0.081 3.236 1.912,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.131 0 2.402,
+0.081 0 1.912,
+0.081 3.236 1.912,
+0.131 3.236 2.402,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.306 0 2.863,
+0.131 0 2.402,
+0.131 3.236 2.402,
+0.306 3.236 2.863,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.594 0 3.263,
+0.306 0 2.863,
+0.306 3.236 2.863,
+0.594 3.236 3.263,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+0.976 0 3.574,
+0.594 0 3.263,
+0.594 3.236 3.263,
+0.976 3.236 3.574,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.425 0 3.777,
+0.976 0 3.574,
+0.976 3.236 3.574,
+1.425 3.236 3.777,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+1.912 0 3.855,
+1.425 0 3.777,
+1.425 3.236 3.777,
+1.912 3.236 3.855,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.402 0 3.806,
+1.912 0 3.855,
+1.912 3.236 3.855,
+2.402 3.236 3.806,
+]
+}
+coordIndex [
+0
+1
+2
+3
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.521 3.236 3.858,
+2.402 3.236 3.806,
+1.912 3.236 3.855,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.991 3.236 3.651,
+2.402 3.236 3.806,
+2.521 3.236 3.858,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+Shape {
+appearance USE COL_Color_A01
+geometry IndexedFaceSet {
+solid FALSE
+coord Coordinate {
+point [
+2.991 3.236 3.651,
+2.863 3.236 3.631,
+2.402 3.236 3.806,
+]
+}
+coordIndex [
+0
+1
+2
+-1
+]
+}
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
