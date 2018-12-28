@@ -172,6 +172,7 @@
 					<Item Name="Load Grid Plot AER.vi" Type="VI" URL="../biCNN/Test Files/Load Grid Plot AER.vi"/>
 					<Item Name="Load Grid Save Synp AER.vi" Type="VI" URL="../biCNN/Test Files/Load Grid Save Synp AER.vi"/>
 					<Item Name="Load Plot Grid.vi" Type="VI" URL="../biCNN/Test Files/Load Plot Grid.vi"/>
+					<Item Name="testOKN.vi" Type="VI" URL="../../OKN Simulation/testOKN.vi"/>
 				</Item>
 				<Item Name="Utilities" Type="Folder">
 					<Item Name="AccNeurons.vi" Type="VI" URL="../biCNN/Utilities/AccNeurons.vi"/>
@@ -180,6 +181,7 @@
 					<Item Name="coor2id.vi" Type="VI" URL="../biCNN/Utilities/coor2id.vi"/>
 					<Item Name="Delete First Element.vi" Type="VI" URL="../biCNN/Utilities/Delete First Element.vi"/>
 					<Item Name="Euclidean distance.vi" Type="VI" URL="../biCNN/Utilities/Euclidean distance.vi"/>
+					<Item Name="FIFO.vi" Type="VI" URL="../biCNN/Utilities/FIFO.vi"/>
 					<Item Name="Generate IDs.vi" Type="VI" URL="../biCNN/Utilities/Generate IDs.vi"/>
 					<Item Name="Get Elements Enum.vi" Type="VI" URL="../biCNN/Utilities/Get Elements Enum.vi"/>
 					<Item Name="Get Square Periphery.vi" Type="VI" URL="../biCNN/Utilities/Get Square Periphery.vi"/>
@@ -191,6 +193,7 @@
 					<Item Name="Rand W.vi" Type="VI" URL="../biCNN/Utilities/Rand W.vi"/>
 					<Item Name="RSE.vi" Type="VI" URL="../biCNN/Utilities/RSE.vi"/>
 					<Item Name="SavePostPreList.vi" Type="VI" URL="../biCNN/Utilities/SavePostPreList.vi"/>
+					<Item Name="SquareWaveComp.vi" Type="VI" URL="../biCNN/Utilities/SquareWaveComp.vi"/>
 					<Item Name="Start Simulation.vi" Type="VI" URL="../biCNN/Utilities/Start Simulation.vi"/>
 					<Item Name="Synapse2neurons.vi" Type="VI" URL="../biCNN/Utilities/Synapse2neurons.vi"/>
 				</Item>
@@ -203,12 +206,13 @@
 		<Item Name="Model" Type="Folder">
 			<Item Name="ExploreWeights.vi" Type="VI" URL="../biCNN/AER/ExploreWeights.vi"/>
 			<Item Name="OKN model.vi" Type="VI" URL="../OKN model.vi"/>
-			<Item Name="testOKN.vi" Type="VI" URL="../../OKN Simulation/testOKN.vi"/>
 		</Item>
 		<Item Name="Stim" Type="Folder">
 			<Item Name="VisualStim.vi" Type="VI" URL="../VisualStim.vi"/>
 		</Item>
 		<Item Name="testCerebellumNumeric.vi" Type="VI" URL="../biCNN/Test Files/testCerebellumNumeric.vi"/>
+		<Item Name="TestFIFO.vi" Type="VI" URL="../biCNN/Test Files/TestFIFO.vi"/>
+		<Item Name="TestSquare.vi" Type="VI" URL="../biCNN/Test Files/TestSquare.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -262,7 +266,6 @@
 			</Item>
 			<Item Name="Load.vi" Type="VI" URL="../biCNN/Cube/Load.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="VisualTF.vi" Type="VI" URL="../../OKN Simulation/VisualTF.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
