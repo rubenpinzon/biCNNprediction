@@ -131,6 +131,7 @@
 		<Item Name="Stim" Type="Folder">
 			<Item Name="VisualStim.vi" Type="VI" URL="../VisualStim.vi"/>
 		</Item>
+		<Item Name="PeriodTuningSine.vi" Type="VI" URL="../biCNN/Utilities/PeriodTuningSine.vi"/>
 		<Item Name="testCerebellumNumeric.vi" Type="VI" URL="../biCNN/Test Files/testCerebellumNumeric.vi"/>
 		<Item Name="TestFIFO.vi" Type="VI" URL="../biCNN/Test Files/TestFIFO.vi"/>
 		<Item Name="TestSquare.vi" Type="VI" URL="../biCNN/Test Files/TestSquare.vi"/>
