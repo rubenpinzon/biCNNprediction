@@ -21,12 +21,6 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="biCNN" Type="Folder">
 			<Item Name="biCNN_src" Type="Folder">
-				<Item Name="AER" Type="Folder">
-					<Item Name="AER.lvclass" Type="LVClass" URL="../biCNN/AER/AER.lvclass"/>
-				</Item>
-				<Item Name="Cerebellum" Type="Folder">
-					<Item Name="Cerebellum.lvclass" Type="LVClass" URL="../biCNN/Cerebellum/Cerebellum.lvclass"/>
-				</Item>
 				<Item Name="Controls" Type="Folder">
 					<Item Name="Neuron Colors.ctl" Type="VI" URL="../biCNN/Controls/Neuron Colors.ctl"/>
 					<Item Name="Neuron Info.ctl" Type="VI" URL="../biCNN/Controls/Neuron Info.ctl"/>
@@ -37,11 +31,25 @@
 					<Item Name="Type of Neuron.ctl" Type="VI" URL="../biCNN/Controls/Type of Neuron.ctl"/>
 					<Item Name="Type of Synapses.ctl" Type="VI" URL="../biCNN/Controls/Type of Synapses.ctl"/>
 				</Item>
-				<Item Name="Cube" Type="Folder">
-					<Item Name="Grid.lvclass" Type="LVClass" URL="../biCNN/Cube/Grid.lvclass"/>
-				</Item>
 				<Item Name="Documentation" Type="Folder">
 					<Item Name="Step by Step demo.pdf" Type="Document" URL="../biCNN/Documentation/Step by Step demo.pdf"/>
+				</Item>
+				<Item Name="Model_core" Type="Folder">
+					<Item Name="AER" Type="Folder">
+						<Item Name="AER.lvclass" Type="LVClass" URL="../biCNN/AER/AER.lvclass"/>
+					</Item>
+					<Item Name="Cerebellum" Type="Folder">
+						<Item Name="Cerebellum.lvclass" Type="LVClass" URL="../biCNN/Cerebellum/Cerebellum.lvclass"/>
+					</Item>
+					<Item Name="Cube" Type="Folder">
+						<Item Name="Grid.lvclass" Type="LVClass" URL="../biCNN/Cube/Grid.lvclass"/>
+					</Item>
+					<Item Name="Neuron" Type="Folder">
+						<Item Name="Neuron.lvclass" Type="LVClass" URL="../biCNN/Neuron/Neuron.lvclass"/>
+					</Item>
+					<Item Name="Synapses" Type="Folder">
+						<Item Name="Synapses.lvclass" Type="LVClass" URL="../biCNN/Synapses/Synapses.lvclass"/>
+					</Item>
 				</Item>
 				<Item Name="MotorDemo" Type="Folder">
 					<Item Name="3D world" Type="Folder">
@@ -63,9 +71,6 @@
 					<Item Name="Propeller.wrl" Type="Document" URL="../biCNN/MotorDemo/Propeller.wrl"/>
 					<Item Name="Ref Signal.vi" Type="VI" URL="../biCNN/MotorDemo/Ref Signal.vi"/>
 				</Item>
-				<Item Name="Neuron" Type="Folder">
-					<Item Name="Neuron.lvclass" Type="LVClass" URL="../biCNN/Neuron/Neuron.lvclass"/>
-				</Item>
 				<Item Name="Probe" Type="Folder"/>
 				<Item Name="QuadDemo" Type="Folder">
 					<Item Name="3D Model" Type="Folder">
@@ -80,90 +85,6 @@
 						<Item Name="PropellerGreen.wrl" Type="Document" URL="../biCNN/QuadDemo/3D Model/PropellerGreen.wrl"/>
 					</Item>
 					<Item Name="Quadcopter.vi" Type="VI" URL="../biCNN/QuadDemo/Quadcopter.vi"/>
-				</Item>
-				<Item Name="Results" Type="Folder">
-					<Item Name="AER" Type="Folder">
-						<Item Name="synapses12Dec09p30" Type="Folder">
-							<Item Name="aer12Dec09p30.xml" Type="Document" URL="../biCNN/Results/AER/synapses12Dec09p30/aer12Dec09p30.xml"/>
-						</Item>
-						<Item Name="synapses12Dec09p31" Type="Folder">
-							<Item Name="aer12Dec09p31.xml" Type="Document" URL="../biCNN/Results/AER/synapses12Dec09p31/aer12Dec09p31.xml"/>
-						</Item>
-						<Item Name="synapses22Oct09p14" Type="Folder">
-							<Item Name="aer22Oct09p21.xml" Type="Document" URL="../biCNN/Results/AER/synapses22Oct09p14/aer22Oct09p21.xml"/>
-						</Item>
-						<Item Name="synapses22Oct09p36" Type="Folder">
-							<Item Name="aer22Oct09p36.xml" Type="Document" URL="../biCNN/Results/AER/synapses22Oct09p36/aer22Oct09p36.xml"/>
-						</Item>
-						<Item Name="synapses201222p30" Type="Folder">
-							<Item Name="aer201222p30.xml" Type="Document" URL="../biCNN/Results/AER/synapses201222p30/aer201222p30.xml"/>
-							<Item Name="aer201222p31.xml" Type="Document" URL="../biCNN/Results/AER/synapses201222p30/aer201222p31.xml"/>
-						</Item>
-						<Item Name="synapses201222p35" Type="Folder">
-							<Item Name="aer201222p36.xml" Type="Document" URL="../biCNN/Results/AER/synapses201222p35/aer201222p36.xml"/>
-						</Item>
-						<Item Name="synapses201222p36" Type="Folder">
-							<Item Name="aer201222p36.xml" Type="Document" URL="../biCNN/Results/AER/synapses201222p36/aer201222p36.xml"/>
-						</Item>
-						<Item Name="synapses211216p16" Type="Folder">
-							<Item Name="aer211216p16.xml" Type="Document" URL="../biCNN/Results/AER/synapses211216p16/aer211216p16.xml"/>
-						</Item>
-						<Item Name="synapses211216p18" Type="Folder">
-							<Item Name="aer211216p18.xml" Type="Document" URL="../biCNN/Results/AER/synapses211216p18/aer211216p18.xml"/>
-						</Item>
-					</Item>
-					<Item Name="Grid" Type="Folder">
-						<Item Name="DesignValues_12Dec09p29.txt" Type="Document" URL="../biCNN/Results/Grid/DesignValues_12Dec09p29.txt"/>
-						<Item Name="DesignValues_21Oct15p53.txt" Type="Document" URL="../biCNN/Results/Grid/DesignValues_21Oct15p53.txt"/>
-						<Item Name="DesignValues_201222p15.txt" Type="Document" URL="../biCNN/Results/Grid/DesignValues_201222p15.txt"/>
-						<Item Name="DesignValues_201222p32.txt" Type="Document" URL="../biCNN/Results/Grid/DesignValues_201222p32.txt"/>
-						<Item Name="DesignValues_201222p33.txt" Type="Document" URL="../biCNN/Results/Grid/DesignValues_201222p33.txt"/>
-						<Item Name="DesignValues_201222p34.txt" Type="Document" URL="../biCNN/Results/Grid/DesignValues_201222p34.txt"/>
-						<Item Name="DesignValues_211216p09.txt" Type="Document" URL="../biCNN/Results/Grid/DesignValues_211216p09.txt"/>
-						<Item Name="DesignValues_211216p12.txt" Type="Document" URL="../biCNN/Results/Grid/DesignValues_211216p12.txt"/>
-						<Item Name="DesignValues_211216p13.txt" Type="Document" URL="../biCNN/Results/Grid/DesignValues_211216p13.txt"/>
-						<Item Name="DesignValues_211216p15.txt" Type="Document" URL="../biCNN/Results/Grid/DesignValues_211216p15.txt"/>
-						<Item Name="grid12Dec09p29.xml" Type="Document" URL="../biCNN/Results/Grid/grid12Dec09p29.xml"/>
-						<Item Name="grid21Oct15p53.xml" Type="Document" URL="../biCNN/Results/Grid/grid21Oct15p53.xml"/>
-						<Item Name="grid201222p15.xml" Type="Document" URL="../biCNN/Results/Grid/grid201222p15.xml"/>
-						<Item Name="grid201222p32.xml" Type="Document" URL="../biCNN/Results/Grid/grid201222p32.xml"/>
-						<Item Name="grid201222p33.xml" Type="Document" URL="../biCNN/Results/Grid/grid201222p33.xml"/>
-						<Item Name="grid201222p34.xml" Type="Document" URL="../biCNN/Results/Grid/grid201222p34.xml"/>
-						<Item Name="grid211216p09.xml" Type="Document" URL="../biCNN/Results/Grid/grid211216p09.xml"/>
-						<Item Name="grid211216p12.xml" Type="Document" URL="../biCNN/Results/Grid/grid211216p12.xml"/>
-						<Item Name="grid211216p13.xml" Type="Document" URL="../biCNN/Results/Grid/grid211216p13.xml"/>
-						<Item Name="grid211216p15.xml" Type="Document" URL="../biCNN/Results/Grid/grid211216p15.xml"/>
-					</Item>
-					<Item Name="Synapses" Type="Folder">
-						<Item Name="grid12Dec09p29" Type="Folder">
-							<Item Name="synapses12Dec09p30.xml" Type="Document" URL="../biCNN/Results/Synapses/grid12Dec09p29/synapses12Dec09p30.xml"/>
-							<Item Name="synapses12Dec09p31.xml" Type="Document" URL="../biCNN/Results/Synapses/grid12Dec09p29/synapses12Dec09p31.xml"/>
-						</Item>
-						<Item Name="grid21Oct15p53" Type="Folder">
-							<Item Name="synapses22Oct09p14.xml" Type="Document" URL="../biCNN/Results/Synapses/grid21Oct15p53/synapses22Oct09p14.xml"/>
-							<Item Name="synapses22Oct09p36.xml" Type="Document" URL="../biCNN/Results/Synapses/grid21Oct15p53/synapses22Oct09p36.xml"/>
-							<Item Name="synapses201222p30.xml" Type="Document" URL="../biCNN/Results/Synapses/grid21Oct15p53/synapses201222p30.xml"/>
-						</Item>
-						<Item Name="grid201222p34" Type="Folder">
-							<Item Name="synapses201222p35.xml" Type="Document" URL="../biCNN/Results/Synapses/grid201222p34/synapses201222p35.xml"/>
-							<Item Name="synapses201222p36.xml" Type="Document" URL="../biCNN/Results/Synapses/grid201222p34/synapses201222p36.xml"/>
-						</Item>
-						<Item Name="grid211216p15" Type="Folder">
-							<Item Name="synapses211216p16.xml" Type="Document" URL="../biCNN/Results/Synapses/grid211216p15/synapses211216p16.xml"/>
-							<Item Name="synapses211216p18.xml" Type="Document" URL="../biCNN/Results/Synapses/grid211216p15/synapses211216p18.xml"/>
-						</Item>
-					</Item>
-					<Item Name="TrainedCere" Type="Folder">
-						<Item Name="aerTrained12Dec09p32.xml" Type="Document" URL="../biCNN/Results/TrainedCere/aerTrained12Dec09p32.xml"/>
-						<Item Name="aerTrained22Oct09p49.xml" Type="Document" URL="../biCNN/Results/TrainedCere/aerTrained22Oct09p49.xml"/>
-						<Item Name="aerTrained22Oct09p55.xml" Type="Document" URL="../biCNN/Results/TrainedCere/aerTrained22Oct09p55.xml"/>
-						<Item Name="aerTrained211216p28.xml" Type="Document" URL="../biCNN/Results/TrainedCere/aerTrained211216p28.xml"/>
-					</Item>
-					<Item Name="leftHem.txt" Type="Document" URL="../biCNN/Results/leftHem.txt"/>
-					<Item Name="rightHem.txt" Type="Document" URL="../biCNN/Results/rightHem.txt"/>
-				</Item>
-				<Item Name="Synapses" Type="Folder">
-					<Item Name="Synapses.lvclass" Type="LVClass" URL="../biCNN/Synapses/Synapses.lvclass"/>
 				</Item>
 				<Item Name="Test Files" Type="Folder">
 					<Item Name="cerebellum.vi" Type="VI" URL="../biCNN/Test Files/cerebellum.vi"/>
