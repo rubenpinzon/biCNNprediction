@@ -116,6 +116,7 @@
 					<Item Name="SavePostPreList.vi" Type="VI" URL="../biCNN/Utilities/SavePostPreList.vi"/>
 					<Item Name="SquareWaveComp.vi" Type="VI" URL="../biCNN/Utilities/SquareWaveComp.vi"/>
 					<Item Name="Start Simulation.vi" Type="VI" URL="../biCNN/Utilities/Start Simulation.vi"/>
+					<Item Name="StimCompOKN.vi" Type="VI" URL="../biCNN/Utilities/StimCompOKN.vi"/>
 					<Item Name="Synapse2neurons.vi" Type="VI" URL="../biCNN/Utilities/Synapse2neurons.vi"/>
 				</Item>
 			</Item>
