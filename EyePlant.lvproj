@@ -114,6 +114,7 @@
 					<Item Name="Rand W.vi" Type="VI" URL="../biCNN/Utilities/Rand W.vi"/>
 					<Item Name="RSE.vi" Type="VI" URL="../biCNN/Utilities/RSE.vi"/>
 					<Item Name="SavePostPreList.vi" Type="VI" URL="../biCNN/Utilities/SavePostPreList.vi"/>
+					<Item Name="SelectNetwork.vi" Type="VI" URL="../biCNN/Utilities/SelectNetwork.vi"/>
 					<Item Name="SquareWaveComp.vi" Type="VI" URL="../biCNN/Utilities/SquareWaveComp.vi"/>
 					<Item Name="Start Simulation.vi" Type="VI" URL="../biCNN/Utilities/Start Simulation.vi"/>
 					<Item Name="StimCompOKN.vi" Type="VI" URL="../biCNN/Utilities/StimCompOKN.vi"/>
@@ -128,10 +129,13 @@
 		<Item Name="Model" Type="Folder">
 			<Item Name="ExploreWeights.vi" Type="VI" URL="../biCNN/AER/ExploreWeights.vi"/>
 			<Item Name="OKN model.vi" Type="VI" URL="../OKN model.vi"/>
+			<Item Name="OKNModelLog.vi" Type="VI" URL="../biCNN/Utilities/OKNModelLog.vi"/>
+			<Item Name="OKNrunge4th.vi" Type="VI" URL="../biCNN/Models/OKNrunge4th.vi"/>
 		</Item>
 		<Item Name="Stim" Type="Folder">
 			<Item Name="VisualStim.vi" Type="VI" URL="../VisualStim.vi"/>
 		</Item>
+		<Item Name="OKNstimTest.vi" Type="VI" URL="../biCNN/Utilities/OKNstimTest.vi"/>
 		<Item Name="PeriodTuningSine.vi" Type="VI" URL="../biCNN/Utilities/PeriodTuningSine.vi"/>
 		<Item Name="testCerebellumNumeric.vi" Type="VI" URL="../biCNN/Test Files/testCerebellumNumeric.vi"/>
 		<Item Name="TestFIFO.vi" Type="VI" URL="../biCNN/Test Files/TestFIFO.vi"/>
