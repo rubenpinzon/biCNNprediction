@@ -93,7 +93,6 @@
 					<Item Name="Load Grid Plot AER.vi" Type="VI" URL="../biCNN/Test Files/Load Grid Plot AER.vi"/>
 					<Item Name="Load Grid Save Synp AER.vi" Type="VI" URL="../biCNN/Test Files/Load Grid Save Synp AER.vi"/>
 					<Item Name="Load Plot Grid.vi" Type="VI" URL="../biCNN/Test Files/Load Plot Grid.vi"/>
-					<Item Name="testOKN.vi" Type="VI" URL="../../OKN Simulation/testOKN.vi"/>
 				</Item>
 				<Item Name="Utilities" Type="Folder">
 					<Item Name="AccNeurons.vi" Type="VI" URL="../biCNN/Utilities/AccNeurons.vi"/>
