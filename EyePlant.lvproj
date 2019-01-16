@@ -63,7 +63,6 @@
 					<Item Name="Camera Setup.vi" Type="VI" URL="../biCNN/MotorDemo/Camera Setup.vi"/>
 					<Item Name="floor.png" Type="Document" URL="../biCNN/MotorDemo/floor.png"/>
 					<Item Name="IO nucleus.vi" Type="VI" URL="../biCNN/MotorDemo/IO nucleus.vi"/>
-					<Item Name="Mf generator.vi" Type="VI" URL="../biCNN/MotorDemo/Mf generator.vi"/>
 					<Item Name="Motor Fune.skb" Type="Document" URL="../biCNN/MotorDemo/Motor Fune.skb"/>
 					<Item Name="Motor Fune.skp" Type="Document" URL="../biCNN/MotorDemo/Motor Fune.skp"/>
 					<Item Name="Motor TF.vi" Type="VI" URL="../biCNN/MotorDemo/Motor TF.vi"/>
@@ -90,6 +89,7 @@
 					<Item Name="cerebellum.vi" Type="VI" URL="../biCNN/Test Files/cerebellum.vi"/>
 					<Item Name="Create Save Grid.vi" Type="VI" URL="../biCNN/Test Files/Create Save Grid.vi"/>
 					<Item Name="Create Save Plot Grid.vi" Type="VI" URL="../biCNN/Test Files/Create Save Plot Grid.vi"/>
+					<Item Name="ExploreWeights.vi" Type="VI" URL="../biCNN/AER/ExploreWeights.vi"/>
 					<Item Name="Load Grid Plot AER.vi" Type="VI" URL="../biCNN/Test Files/Load Grid Plot AER.vi"/>
 					<Item Name="Load Grid Save Synp AER.vi" Type="VI" URL="../biCNN/Test Files/Load Grid Save Synp AER.vi"/>
 					<Item Name="Load Plot Grid.vi" Type="VI" URL="../biCNN/Test Files/Load Plot Grid.vi"/>
@@ -108,7 +108,9 @@
 					<Item Name="Get Synapses per Neuron.vi" Type="VI" URL="../biCNN/Utilities/Get Synapses per Neuron.vi"/>
 					<Item Name="id2coor.vi" Type="VI" URL="../biCNN/Utilities/id2coor.vi"/>
 					<Item Name="Id2TypeColor.vi" Type="VI" URL="../biCNN/Utilities/Id2TypeColor.vi"/>
+					<Item Name="Mf generator.vi" Type="VI" URL="../biCNN/MotorDemo/Mf generator.vi"/>
 					<Item Name="PlotGrid.vi" Type="VI" URL="../biCNN/Utilities/PlotGrid.vi"/>
+					<Item Name="PositiveNegativeSpliter.vi" Type="VI" URL="../biCNN/Utilities/PositiveNegativeSpliter.vi"/>
 					<Item Name="ProgressBar.vi" Type="VI" URL="../biCNN/Utilities/ProgressBar.vi"/>
 					<Item Name="Rand W.vi" Type="VI" URL="../biCNN/Utilities/Rand W.vi"/>
 					<Item Name="RSE.vi" Type="VI" URL="../biCNN/Utilities/RSE.vi"/>
@@ -126,7 +128,6 @@
 			<Item Name="VisualTF.vi" Type="VI" URL="../VisualTF.vi"/>
 		</Item>
 		<Item Name="Model" Type="Folder">
-			<Item Name="ExploreWeights.vi" Type="VI" URL="../biCNN/AER/ExploreWeights.vi"/>
 			<Item Name="OKN model.vi" Type="VI" URL="../OKN model.vi"/>
 			<Item Name="OKNModelLog.vi" Type="VI" URL="../biCNN/Utilities/OKNModelLog.vi"/>
 			<Item Name="OKNrunge4th.vi" Type="VI" URL="../biCNN/Models/OKNrunge4th.vi"/>
@@ -139,6 +140,7 @@
 		<Item Name="testCerebellumNumeric.vi" Type="VI" URL="../biCNN/Test Files/testCerebellumNumeric.vi"/>
 		<Item Name="TestFIFO.vi" Type="VI" URL="../biCNN/Test Files/TestFIFO.vi"/>
 		<Item Name="TestSquare.vi" Type="VI" URL="../biCNN/Test Files/TestSquare.vi"/>
+		<Item Name="TextSynapses.vi" Type="VI" URL="../biCNN/Utilities/TextSynapses.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
