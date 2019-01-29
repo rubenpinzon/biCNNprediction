@@ -20,6 +20,9 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="biCNN" Type="Folder">
+			<Item Name="CNN.lvclass" Type="LVClass" URL="../src/biCNN/CNN.lvclass"/>
+		</Item>
+		<Item Name="biCNN_full" Type="Folder">
 			<Item Name="Controls" Type="Folder">
 				<Item Name="Neuron Colors.ctl" Type="VI" URL="../biCNN/Controls/Neuron Colors.ctl"/>
 				<Item Name="Neuron Info.ctl" Type="VI" URL="../biCNN/Controls/Neuron Info.ctl"/>
@@ -91,7 +94,6 @@
 				<Item Name="ExploreWeights.vi" Type="VI" URL="../biCNN/AER/ExploreWeights.vi"/>
 				<Item Name="Load Grid Plot AER.vi" Type="VI" URL="../biCNN/Test Files/Load Grid Plot AER.vi"/>
 				<Item Name="Load Grid Save Synp AER.vi" Type="VI" URL="../biCNN/Test Files/Load Grid Save Synp AER.vi"/>
-				<Item Name="Load Plot Grid.vi" Type="VI" URL="../biCNN/Test Files/Load Plot Grid.vi"/>
 			</Item>
 			<Item Name="Utilities" Type="Folder">
 				<Item Name="AccNeurons.vi" Type="VI" URL="../biCNN/Utilities/AccNeurons.vi"/>
@@ -109,6 +111,8 @@
 				<Item Name="id2coor.vi" Type="VI" URL="../biCNN/Utilities/id2coor.vi"/>
 				<Item Name="Id2TypeColor.vi" Type="VI" URL="../biCNN/Utilities/Id2TypeColor.vi"/>
 				<Item Name="Mf generator.vi" Type="VI" URL="../biCNN/MotorDemo/Mf generator.vi"/>
+				<Item Name="OKNstimTest.vi" Type="VI" URL="../biCNN/Utilities/OKNstimTest.vi"/>
+				<Item Name="PeriodTuningSine.vi" Type="VI" URL="../biCNN/Utilities/PeriodTuningSine.vi"/>
 				<Item Name="PlotGrid.vi" Type="VI" URL="../biCNN/Utilities/PlotGrid.vi"/>
 				<Item Name="PositiveNegativeSpliter.vi" Type="VI" URL="../biCNN/Utilities/PositiveNegativeSpliter.vi"/>
 				<Item Name="ProgressBar.vi" Type="VI" URL="../biCNN/Utilities/ProgressBar.vi"/>
@@ -120,35 +124,40 @@
 				<Item Name="Start Simulation.vi" Type="VI" URL="../biCNN/Utilities/Start Simulation.vi"/>
 				<Item Name="StimCompOKN.vi" Type="VI" URL="../biCNN/Utilities/StimCompOKN.vi"/>
 				<Item Name="Synapse2neurons.vi" Type="VI" URL="../biCNN/Utilities/Synapse2neurons.vi"/>
+				<Item Name="testCerebellumNumeric.vi" Type="VI" URL="../biCNN/Test Files/testCerebellumNumeric.vi"/>
+				<Item Name="TestFIFO.vi" Type="VI" URL="../biCNN/Test Files/TestFIFO.vi"/>
+				<Item Name="TestSquare.vi" Type="VI" URL="../biCNN/Test Files/TestSquare.vi"/>
+				<Item Name="TextSynapses.vi" Type="VI" URL="../biCNN/Utilities/TextSynapses.vi"/>
 			</Item>
 		</Item>
 		<Item Name="EyePlant" Type="Folder">
+			<Item Name="DirectTF.vi" Type="VI" URL="../DirectTF.vi"/>
 			<Item Name="VelStorageTF.vi" Type="VI" URL="../VelStorageTF.vi"/>
-			<Item Name="VisualTF.vi" Type="VI" URL="../VisualTF.vi"/>
 		</Item>
 		<Item Name="Model" Type="Folder">
 			<Item Name="OKN model.vi" Type="VI" URL="../OKN model.vi"/>
+			<Item Name="OKN_CPG.vi" Type="VI" URL="../src/Model/OKN_CPG.vi"/>
 			<Item Name="OKNModelLog.vi" Type="VI" URL="../biCNN/Utilities/OKNModelLog.vi"/>
 			<Item Name="OKNrunge4th.vi" Type="VI" URL="../biCNN/Models/OKNrunge4th.vi"/>
 		</Item>
 		<Item Name="Stim" Type="Folder">
 			<Item Name="VisualStim.vi" Type="VI" URL="../VisualStim.vi"/>
 		</Item>
-		<Item Name="OKNstimTest.vi" Type="VI" URL="../biCNN/Utilities/OKNstimTest.vi"/>
-		<Item Name="PeriodTuningSine.vi" Type="VI" URL="../biCNN/Utilities/PeriodTuningSine.vi"/>
-		<Item Name="testCerebellumNumeric.vi" Type="VI" URL="../biCNN/Test Files/testCerebellumNumeric.vi"/>
-		<Item Name="TestFIFO.vi" Type="VI" URL="../biCNN/Test Files/TestFIFO.vi"/>
-		<Item Name="TestSquare.vi" Type="VI" URL="../biCNN/Test Files/TestSquare.vi"/>
-		<Item Name="TextSynapses.vi" Type="VI" URL="../biCNN/Utilities/TextSynapses.vi"/>
+		<Item Name="Tools" Type="Folder">
+			<Item Name="Select_Network.vi" Type="VI" URL="../src/Tools/Select_Network.vi"/>
+		</Item>
+		<Item Name="Stim.vi" Type="VI" URL="../src/Tools/Stim.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
 				<Item Name="Check Path.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Path.vi"/>
+				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
 				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
 				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
 				<Item Name="compatFileDialog.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatFileDialog.vi"/>
 				<Item Name="compatOpenFileOperation.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOpenFileOperation.vi"/>
+				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
 				<Item Name="Create Mask By Alpha.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Create Mask By Alpha.vi"/>
 				<Item Name="Directory of Top Level VI.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Directory of Top Level VI.vi"/>
 				<Item Name="Draw Arc.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Arc.vi"/>
@@ -158,6 +167,7 @@
 				<Item Name="Draw Text at Point.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Text at Point.vi"/>
 				<Item Name="Draw Text in Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Text in Rect.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
 				<Item Name="FindCloseTagByName.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindCloseTagByName.vi"/>
 				<Item Name="FindElement.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindElement.vi"/>
 				<Item Name="FindElementStartByName.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindElementStartByName.vi"/>
@@ -179,19 +189,30 @@
 				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
 				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
+				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
 				<Item Name="ParseXMLFragments.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/ParseXMLFragments.vi"/>
 				<Item Name="PCT Pad String.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/PCT Pad String.vi"/>
+				<Item Name="Read Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (DBL).vi"/>
+				<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
+				<Item Name="Read Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (string).vi"/>
+				<Item Name="Read Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet.vi"/>
+				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
 				<Item Name="Read From XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File(array).vi"/>
 				<Item Name="Read From XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File(string).vi"/>
 				<Item Name="Read From XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File.vi"/>
+				<Item Name="Read Lines From File (with error IO).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File (with error IO).vi"/>
 				<Item Name="Read PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Read PNG File.vi"/>
 				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
+				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
+				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
+				<Item Name="Write Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (string).vi"/>
+				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
+				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
 				<Item Name="Write to XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(string).vi"/>
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
 			</Item>
-			<Item Name="Load.vi" Type="VI" URL="../biCNN/Cube/Load.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
