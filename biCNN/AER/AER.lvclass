@@ -136,9 +136,9 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
 	</Item>
 	<Item Name="Save.vi" Type="VI" URL="../Save.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"U!!!!"1!%!!!!&amp;E!Q`````QV"26)A:GFM:3"O97VF!""!-P````]'37ZQ982I!!!?1(!!(A!!$1N"26)O&lt;(:D&lt;'&amp;T=Q!'1563)'FO!!!E!0!!"!!!!!%!!A!$!Q!!+!!!!!!!!1I!!!!)!!!!%!!!!!!"!!1!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#'!!!!"1!71$,`````$'.S:7&amp;U:71A='&amp;U;!!!&amp;E!Q`````QV"26)A:GFM:3"O97VF!""!-P````]'37ZQ982I!!!?1(!!(A!!$1N"26)O&lt;(:D&lt;'&amp;T=Q!'1563)'FO!!!E!0!!"!!!!!%!!A!$!Q!!+!!!#1!!!1I!!!!)!!!!%!!!!!!"!!1!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">17039744</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>

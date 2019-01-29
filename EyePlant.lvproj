@@ -140,13 +140,11 @@
 			<Item Name="OKNModelLog.vi" Type="VI" URL="../biCNN/Utilities/OKNModelLog.vi"/>
 			<Item Name="OKNrunge4th.vi" Type="VI" URL="../biCNN/Models/OKNrunge4th.vi"/>
 		</Item>
-		<Item Name="Stim" Type="Folder">
-			<Item Name="VisualStim.vi" Type="VI" URL="../VisualStim.vi"/>
-		</Item>
 		<Item Name="Tools" Type="Folder">
+			<Item Name="Input_Generator.vi" Type="VI" URL="../src/Tools/Input_Generator.vi"/>
 			<Item Name="Select_Network.vi" Type="VI" URL="../src/Tools/Select_Network.vi"/>
+			<Item Name="Stim.vi" Type="VI" URL="../src/Tools/Stim.vi"/>
 		</Item>
-		<Item Name="Stim.vi" Type="VI" URL="../src/Tools/Stim.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
