@@ -126,6 +126,7 @@
 			<Item Name="VisualTF.vi" Type="VI" URL="../VisualTF.vi"/>
 		</Item>
 		<Item Name="Model" Type="Folder">
+			<Item Name="CPG.vi" Type="VI" URL="../CPG.vi"/>
 			<Item Name="ExploreWeights.vi" Type="VI" URL="../biCNN/AER/ExploreWeights.vi"/>
 			<Item Name="OKN model.vi" Type="VI" URL="../OKN model.vi"/>
 			<Item Name="OKNModelLog.vi" Type="VI" URL="../biCNN/Utilities/OKNModelLog.vi"/>
