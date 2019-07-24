@@ -99,6 +99,7 @@
 					<Item Name="ActivationFunction.vi" Type="VI" URL="../biCNN/Utilities/ActivationFunction.vi"/>
 					<Item Name="AvailableElements.vi" Type="VI" URL="../biCNN/Utilities/AvailableElements.vi"/>
 					<Item Name="coor2id.vi" Type="VI" URL="../biCNN/Utilities/coor2id.vi"/>
+					<Item Name="CreateResultsFolder.vi" Type="VI" URL="/D/OKANtimePrediction/biCNN/Utilities/CreateResultsFolder.vi"/>
 					<Item Name="Delete First Element.vi" Type="VI" URL="../biCNN/Utilities/Delete First Element.vi"/>
 					<Item Name="Euclidean distance.vi" Type="VI" URL="../biCNN/Utilities/Euclidean distance.vi"/>
 					<Item Name="FIFO.vi" Type="VI" URL="../biCNN/Utilities/FIFO.vi"/>
