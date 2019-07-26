@@ -119,6 +119,7 @@
 					<Item Name="Start Simulation.vi" Type="VI" URL="../biCNN/Utilities/Start Simulation.vi"/>
 					<Item Name="StimCompOKN.vi" Type="VI" URL="../biCNN/Utilities/StimCompOKN.vi"/>
 					<Item Name="Synapse2neurons.vi" Type="VI" URL="../biCNN/Utilities/Synapse2neurons.vi"/>
+					<Item Name="VNweight.vi" Type="VI" URL="/D/OKANtimePrediction/biCNN/Utilities/VNweight.vi"/>
 				</Item>
 			</Item>
 		</Item>
