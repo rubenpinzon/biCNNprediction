@@ -62,28 +62,32 @@
 					<Item Name="Motor Fune.skp" Type="Document" URL="../biCNN/MotorDemo/3D world/Motor Fune.skp"/>
 					<Item Name="Motor.vi" Type="VI" URL="../biCNN/MotorDemo/3D world/Motor.vi"/>
 				</Item>
-				<Item Name="Camera Setup.vi" Type="VI" URL="../biCNN/MotorDemo/Camera Setup.vi"/>
-				<Item Name="floor.png" Type="Document" URL="../biCNN/MotorDemo/floor.png"/>
-				<Item Name="IO nucleus.vi" Type="VI" URL="../biCNN/MotorDemo/IO nucleus.vi"/>
-				<Item Name="Motor Fune.skb" Type="Document" URL="../biCNN/MotorDemo/Motor Fune.skb"/>
-				<Item Name="Motor Fune.skp" Type="Document" URL="../biCNN/MotorDemo/Motor Fune.skp"/>
-				<Item Name="Motor TF.vi" Type="VI" URL="../biCNN/MotorDemo/Motor TF.vi"/>
-				<Item Name="Motor.wrl" Type="Document" URL="../biCNN/MotorDemo/Motor.wrl"/>
-				<Item Name="Propeller.wrl" Type="Document" URL="../biCNN/MotorDemo/Propeller.wrl"/>
-				<Item Name="Ref Signal.vi" Type="VI" URL="../biCNN/MotorDemo/Ref Signal.vi"/>
-			</Item>
-			<Item Name="Probe" Type="Folder"/>
-			<Item Name="QuadDemo" Type="Folder">
-				<Item Name="3D Model" Type="Folder">
-					<Item Name="Body.skb" Type="Document" URL="../biCNN/QuadDemo/3D Model/Body.skb"/>
-					<Item Name="Body.skp" Type="Document" URL="../biCNN/QuadDemo/3D Model/Body.skp"/>
-					<Item Name="Body.wrl" Type="Document" URL="../biCNN/QuadDemo/3D Model/Body.wrl"/>
-					<Item Name="Propeller.skb" Type="Document" URL="../biCNN/QuadDemo/3D Model/Propeller.skb"/>
-					<Item Name="Propeller.skp" Type="Document" URL="../biCNN/QuadDemo/3D Model/Propeller.skp"/>
-					<Item Name="Propeller.wrl" Type="Document" URL="../biCNN/QuadDemo/3D Model/Propeller.wrl"/>
-					<Item Name="PropellerGreen.skb" Type="Document" URL="../biCNN/QuadDemo/3D Model/PropellerGreen.skb"/>
-					<Item Name="PropellerGreen.skp" Type="Document" URL="../biCNN/QuadDemo/3D Model/PropellerGreen.skp"/>
-					<Item Name="PropellerGreen.wrl" Type="Document" URL="../biCNN/QuadDemo/3D Model/PropellerGreen.wrl"/>
+				<Item Name="Utilities" Type="Folder">
+					<Item Name="AccNeurons.vi" Type="VI" URL="../biCNN/Utilities/AccNeurons.vi"/>
+					<Item Name="ActivationFunction.vi" Type="VI" URL="../biCNN/Utilities/ActivationFunction.vi"/>
+					<Item Name="AvailableElements.vi" Type="VI" URL="../biCNN/Utilities/AvailableElements.vi"/>
+					<Item Name="coor2id.vi" Type="VI" URL="../biCNN/Utilities/coor2id.vi"/>
+					<Item Name="CreateResultsFolder.vi" Type="VI" URL="/D/OKANtimePrediction/biCNN/Utilities/CreateResultsFolder.vi"/>
+					<Item Name="Delete First Element.vi" Type="VI" URL="../biCNN/Utilities/Delete First Element.vi"/>
+					<Item Name="Euclidean distance.vi" Type="VI" URL="../biCNN/Utilities/Euclidean distance.vi"/>
+					<Item Name="FIFO.vi" Type="VI" URL="../biCNN/Utilities/FIFO.vi"/>
+					<Item Name="Generate IDs.vi" Type="VI" URL="../biCNN/Utilities/Generate IDs.vi"/>
+					<Item Name="Get Elements Enum.vi" Type="VI" URL="../biCNN/Utilities/Get Elements Enum.vi"/>
+					<Item Name="Get Square Periphery.vi" Type="VI" URL="../biCNN/Utilities/Get Square Periphery.vi"/>
+					<Item Name="Get Synapses per Neuron.vi" Type="VI" URL="../biCNN/Utilities/Get Synapses per Neuron.vi"/>
+					<Item Name="id2coor.vi" Type="VI" URL="../biCNN/Utilities/id2coor.vi"/>
+					<Item Name="Id2TypeColor.vi" Type="VI" URL="../biCNN/Utilities/Id2TypeColor.vi"/>
+					<Item Name="PlotGrid.vi" Type="VI" URL="../biCNN/Utilities/PlotGrid.vi"/>
+					<Item Name="ProgressBar.vi" Type="VI" URL="../biCNN/Utilities/ProgressBar.vi"/>
+					<Item Name="Rand W.vi" Type="VI" URL="../biCNN/Utilities/Rand W.vi"/>
+					<Item Name="RSE.vi" Type="VI" URL="../biCNN/Utilities/RSE.vi"/>
+					<Item Name="SavePostPreList.vi" Type="VI" URL="../biCNN/Utilities/SavePostPreList.vi"/>
+					<Item Name="SelectNetwork.vi" Type="VI" URL="../biCNN/Utilities/SelectNetwork.vi"/>
+					<Item Name="SquareWaveComp.vi" Type="VI" URL="../biCNN/Utilities/SquareWaveComp.vi"/>
+					<Item Name="Start Simulation.vi" Type="VI" URL="../biCNN/Utilities/Start Simulation.vi"/>
+					<Item Name="StimCompOKN.vi" Type="VI" URL="../biCNN/Utilities/StimCompOKN.vi"/>
+					<Item Name="Synapse2neurons.vi" Type="VI" URL="../biCNN/Utilities/Synapse2neurons.vi"/>
+					<Item Name="VNweight.vi" Type="VI" URL="/D/OKANtimePrediction/biCNN/Utilities/VNweight.vi"/>
 				</Item>
 				<Item Name="Quadcopter.vi" Type="VI" URL="../biCNN/QuadDemo/Quadcopter.vi"/>
 			</Item>
@@ -135,6 +139,8 @@
 			<Item Name="VelStorageTF.vi" Type="VI" URL="../VelStorageTF.vi"/>
 		</Item>
 		<Item Name="Model" Type="Folder">
+			<Item Name="CPG.vi" Type="VI" URL="../CPG.vi"/>
+			<Item Name="ExploreWeights.vi" Type="VI" URL="../biCNN/AER/ExploreWeights.vi"/>
 			<Item Name="OKN model.vi" Type="VI" URL="../OKN model.vi"/>
 			<Item Name="OKN_CPG.vi" Type="VI" URL="../src/Model/OKN_CPG.vi"/>
 			<Item Name="OKNModelLog.vi" Type="VI" URL="../biCNN/Utilities/OKNModelLog.vi"/>
